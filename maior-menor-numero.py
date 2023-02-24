@@ -18,6 +18,6 @@ else:
 if num_1 < num_2 and num_1 < num_3:
     print(f' O menor número é o {num_1}.')
 elif num_2 < num_1 and num_2 < num_3:
-    print (f' O menor número é o {num_2}.')
+    print(f' O menor número é o {num_2}.')
 else:
     print(f' O menor número é o {num_3}.')
