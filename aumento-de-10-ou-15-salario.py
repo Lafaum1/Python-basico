@@ -8,8 +8,8 @@ salario = float(input('Qual o salario do funcionario? R$').strip())
 if salario > 1250:
     salario_porcent = salario * 10 / 100
     salario_final = salario_porcent + salario
-    print(f' O salario com o aumento será R${salario_final:.2f}.')
+    print(f' O salario {salario:.2f} com o aumento será R${salario_final:.2f}.')
 else:
     salario_porcent = salario * 15 / 100
     salario_final = salario_porcent + salario
-    print(f' O salario com aumento será R${salario_final:.2f}.')
+    print(f' O salario {salario:.2f} com aumento será R${salario_final:.2f}.')
